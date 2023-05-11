@@ -9,7 +9,20 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
         android:text="@string/Gadkiy_J"
-        android:layout_centerInParent="true"/>
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#031CFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="600dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="308dp"
+        app:srcCompat="@drawable/m" />
 
 </RelativeLayout>
